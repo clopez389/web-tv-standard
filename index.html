@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa Mundial de Estándares TDT</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+        body { margin: 0; font-family: sans-serif; }
+        #map { height: 100vh; width: 100%; background: #aad3df; }
+        .info-legend { 
+            padding: 10px; background: white; border-radius: 5px; 
+            box-shadow: 0 0 15px rgba(0,0,0,0.2); line-height: 20px; 
+        }
+        .info-legend i { width: 18px; height: 18px; float: left; margin-right: 8px; opacity: 0.8; }
+    </style>
+</head>
+<body>
+
+<div id="map"></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+    // 1. TUS DATOS JSON (Directamente desde tu archivo index.json)
+   // 1. Declaramos la variable globalmente para que sea accesible
+let rawData = [];
+
+// 2. Cargamos el archivo JSON externo
+fetch('index.json')
+    .then(response => {
+        if (!response.ok) {
+            throw new Error("No se pudo cargar el archivo index.json");
+        }
+        return response.json();
+    })
+    .then(data => {
+        // Asignamos el contenido a nuestra constante/variable
+        rawData = data; 
+        
+        // Es vital llamar a la función que dibuja el mapa AQUÍ adentro, 
+        // para asegurar que los datos ya existan antes de pintar.
+        inicializarMapa(); 
+    })
+    .catch(error => console.error("Error cargando el JSON:", error));
+// 2. Diccionario de mapeo actualizado según tu archivo index.json
+const nameMap = {
+    // Nombres del JSON -> Nombres del Mapa (GeoJSON)
+
+    "China": "China",// pais que no esta en la itu
+    "Brasil": "Brasil",// pais que no esta en la itu
+    "Guinea Ecuatorial": "Equatorial Guinea",// pais que no esta en la itu
+    "Gabón": "Gabon",// pais que no esta en la itu
+    "Camerún": "Cameroon",// pais que no esta en la itu
+    "República Centroafricana": "Central African Republic",// pais que no esta en la itu
+    "Sierra Leona": "Sierra Leone",// pais que no esta en la itu
+    "Turkmenistán": "Turkmenistan",// pais que no esta en la itu
+    "Birmania": "Myanmar",// pais que no esta en la itu
+    "Tailandia": "Thailand",// pais que no esta en la itu
+    "Papua Nueva Guinea": "Papua New Guinea",// pais que no esta en la itu
+    "Groenlandia": "Greenland",// pais que no esta en la itu
+    "Bosnia y Herzegovina": "Bosnia and Herzegovina",// pais que no esta en la itu
+    "Kosovo": "Kosovo",// pais que no esta en la itu
+
+    "Afganistán": "Afghanistan",
+    "Albania (República de)": "Albania",
+    "Argelia (República Democrática Popular de)": "Algeria",
+    "Andorra (Principado de)": "Andorra",
+    "Angola (República de)": "Angola",
+    "República Argentina": "Argentina",
+    "Armenia (República de)": "Armenia",
+    "Austria": "Austria",
+    "Azerbaiyán (República de)": "Azerbaijan",
+    "Bahamas (Comunidad de la)": "Bahamas",
+    "Bahréin (Reino de)": "Bahrain",
+    "Bangladesh (República Popular de)": "Bangladesh",
+    "Bielorrusia (República de)": "Belarus",
+    "Bélgica": "Belgium",
+    "Bután (Reino de)": "Bhutan",
+    "Bolivia (Estado Plurinacional de)": "Bolivia",
+    "Botsuana (República de)": "Botswana",
+    "Brasil": "Brazil",
+    "Bulgaria (República de)": "Bulgaria",
+    "Cabo Verde (República de)": "Cape Verde",
+    "Camboya (Reino de)": "Cambodia",
+    "Canadá": "Canada",
+    "Chile": "Chile",
+    "Colombia": "Colombia",
+    "Comoras (Unión de las)": "Comoros",
+    "Congo (Dem. Representante del)": "Democratic Republic of the Congo",
+    "Congo (República del)": "Republic of the Congo",
+    "Costa Rica": "Costa Rica",
+    "Costa de Marfil (República de)": "Ivory Coast",
+    "Croacia (República de)": "Croatia",
+    "Cuba": "Cuba",
+    "Chipre (República de)": "Cyprus",
+    "República Checa": "Czechia",
+    "República Popular Democrática de Corea": "North Korea",
+    "Dinamarca": "Denmark",
+    "República Dominicana.": "Dominican Republic",
+    "Ecuador": "Ecuador",
+    "Egipto (República Árabe de)": "Egypt",
+    "El Salvador (República de)": "El Salvador",
+    "Estonia (República de)": "Estonia",
+    "Eswatini (Reino de)": "eSwatini",
+    "Etiopía": "Ethiopia",
+    "Finlandia": "Finland",
+    "Francia": "France",
+    "Alemania (República Federal de)": "Germany",
+    "Grecia": "Greece",
+    "Guatemala (República de)": "Guatemala",
+    "Haití (República de)": "Haiti",
+    "Honduras (República de)": "Honduras",
+    "Hungría": "Hungary",
+    "Islandia": "Iceland",
+    "India (República de)": "India",
+    "Indonesia (República de)": "Indonesia",
+    "Irán (República Islámica del)": "Iran",
+    "Irak (República de)": "Iraq",
+    "Irlanda": "Ireland",
+    "Israel (Estado de)": "Israel",
+    "Italia": "Italy",
+    "Japón": "Japan",
+    "Jordania": "Jordan",
+    "Kazajstán (República de)": "Kazakhstan",
+    "Kenia (República de)": "Kenya",
+    "Corea (República de)": "South Korea",
+    "Kuwait (Estado de)": "Kuwait",
+    "República Kirguisa": "Kyrgyzstan",
+    "República Democrática Popular Lao": "Laos",
+    "Letonia (República de)": "Latvia",
+    "Lesotho (Reino de)": "Lesotho",
+    "Liberia (República de)": "Liberia",
+    "Libia": "Libya",
+    "Lituania (República de)": "Lithuania",
+    "Madagascar (República de)": "Madagascar",
+    "Malasia": "Malaysia",
+    "Malí (República de)": "Mali",
+    "Mauritania (República Islámica del)": "Mauritania",
+    "Mauricio (República de)": "Mauritius",
+    "México": "Mexico",
+    "Moldavia (República de)": "Moldova",
+    "Mónaco (Principado de)": "Monaco",
+    "Marruecos (Reino de) (incluido el Sáhara Occidental)": "Morocco",
+    "Nepal (República Democrática Federal de)": "Nepal",
+    "Países Bajos (Reino del)": "Netherlands",
+    "Nueva Zelanda": "New Zealand",
+    "Nicaragua": "Nicaragua",
+    "Níger (República del)": "Niger",
+    "Nigeria (República Federal de)": "Nigeria",
+    "Macedonia del Norte (República de)": "North Macedonia",
+    "Noruega": "Norway",
+    "Omán (Sultanato de)": "Oman",
+    "Pakistán (República Islámica del)": "Pakistan",
+    "Panamá (República de)": "Panama",
+    "Paraguay (República de)": "Paraguay",
+    "Perú": "Peru",
+    "Filipinas (República de la)": "Philippines",
+    "Polonia (República de)": "Poland",
+    "Qatar (Estado de)": "Qatar",
+    "Rumania": "Romania",
+    "Federación de Rusia": "Russia",
+    "Ruanda (República de)": "Rwanda",
+    "Samoa (Estado Independiente de)": "Samoa",
+    "Santo Tomé y Príncipe (República Democrática del)": "Sao Tome and Principe",
+    "Arabia Saudita (Reino de)": "Saudi Arabia",
+    "Senegal (República de)": "Senegal",
+    "Serbia": "Republic of Serbia",
+    "Seychelles (República de)": "Seychelles",
+    "Singapur (República de)": "Singapore",
+    "República Eslovaca": "Slovakia",
+    "Eslovenia (República de)": "Slovenia",
+    "Sudáfrica (República de)": "South Africa",
+    "Sudán del Sur (República de)": "South Sudan",
+    "España": "Spain",
+    "Sri Lanka (República Socialista Democrática de)": "Sri Lanka",
+    "Sudán (República del)": "Sudan",
+    "Surinam (República de)": "Suriname",
+    "Suecia": "Sweden",
+    "Suiza (Confederación de)": "Switzerland",
+    "República Árabe Siria": "Syria",
+    "Tayikistán (República de)": "Tajikistan",
+    "Tanzania (República Unida de)": "United Republic of Tanzania",
+    "Timor-Leste (República Democrática del)": "East Timor",
+    "República Togolesa": "Togo",
+    "Tonga (Reino de)": "Tonga",
+    "Túnez": "Tunisia",
+    "Türkiye": "Turkey",
+    "Uganda (República de)": "Uganda",
+    "Ucrania": "Ukraine",
+    "Emiratos Árabes Unidos": "United Arab Emirates",
+    "Reino Unido de Gran Bretaña e Irlanda del Norte": "United Kingdom",
+    "Estados Unidos de América": "United States of America",
+    "Uruguay (República Oriental de)": "Uruguay",
+    "Uzbekistán (República de)": "Uzbekistan",
+    "Venezuela": "Venezuela",
+    "Vietnam (República Socialista de)": "Vietnam",
+    "Yemen (República de)": "Yemen",
+    "Zambia (República de)": "Zambia",
+    "Zimbabwe (República de)": "Zimbabwe"
+};
+
+    // 2. Inicializar Mapa
+    const map = L.map('map').setView([20, 0], 2);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+
+    // 3. Lógica de Colores por Estándar
+    function getColor(standard) {
+        if (!standard) return "#CCC";
+        const std = Array.isArray(standard) ? standard[1] : standard; // Maneja casos como ["TVDB", "DVB-T2"]
+        
+        if (std.includes("DVB")) return "#3498db"; // Azul
+        if (std.includes("ATSC")) return "#e74c3c"; // Rojo
+        if (std.includes("ISDB")) return "#f1c40f"; // Amarillo
+        if (std.includes("DTMB")) return "#2ecc71"; // Verde
+        return "#BBBBBB"; // Gris para "Sin información"
+    }
+
+    // 4. Cargar GeoJSON de países y aplicar tus datos
+    fetch('https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson')
+    .then(res => res.json())
+    .then(geojson => {
+        L.geoJson(geojson, {
+            style: function(feature) {
+                // Buscamos el país en tu JSON usando el mapeador de nombres
+                const countryEntry = rawData.find(item => 
+                    item.País === feature.properties.name || 
+                    nameMap[item.País] === feature.properties.name
+                );
+                return {
+                    fillColor: countryEntry ? getColor(countryEntry["Estándar de TV"]) : "#EEE",
+                    weight: 1, color: 'white', fillOpacity: 0.7
+                };
+            },
+            onEachFeature: function(feature, layer) {
+                const countryEntry = rawData.find(item => 
+                    item.País === feature.properties.name || 
+                    nameMap[item.País] === feature.properties.name
+                );
+                if (countryEntry) {
+                    layer.bindPopup(`
+                        <strong>${countryEntry.País}</strong><br>
+                        <b>Estándar:</b> ${countryEntry["Estándar de TV"]}<br>
+                        <b>Formato de compresión:</b> ${countryEntry["Formato de compresión"]}<br>
+                        <b>Estado:</b> ${countryEntry.Estado}
+                    `);
+                }
+            }
+        }).addTo(map);
+    });
+
+    // 5. Leyenda
+    const legend = L.control({position: 'bottomright'});
+    legend.onAdd = function() {
+        const div = L.DomUtil.create('div', 'info-legend');
+        div.innerHTML += '<b>Estándares TDT</b><br>';
+        div.innerHTML += '<i style="background: #3498db"></i> DVB-T/T2<br>';
+        div.innerHTML += '<i style="background: #e74c3c"></i> ATSC<br>';
+        div.innerHTML += '<i style="background: #f1c40f"></i> ISDB-T<br>';
+        div.innerHTML += '<i style="background: #2ecc71"></i> DTMB<br>';
+        return div;
+    };
+    legend.addTo(map);
+
+</script>
+</body>
+</html>
+Para la representación de este mapa, se ha generado en formato web, con la ayuda de un fichero index.json se carga en un fichero index.html en el que puede pinchar en cada país y te muestra la información

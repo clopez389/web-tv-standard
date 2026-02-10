@@ -1,0 +1,1802 @@
+[
+  {
+    "País": "China",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "DTMB",
+    "Formato de compresión": "Sin información",
+    "Estado": "Sin información en la ITU"
+  },
+  {
+    "País": "Namibia",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "DVB-T",
+    "Formato de compresión": "Sin información de la ITU",
+    "Estado": "Sin información en la ITU"
+  },
+   {
+    "País": "Guinea Ecuatorial",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "DVB-T",
+    "Formato de compresión": "Sin información de la ITU",
+    "Estado": "Sin información en la ITU"
+  },
+  {
+    "País": "Kosovo",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "DVB-T",
+    "Formato de compresión": "Sin información de la ITU",
+    "Estado": "Sin información en la ITU"
+  },
+  {
+    "País": "Groenlandia",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "DVB-T",
+    "Formato de compresión": "Sin información de la ITU",
+    "Estado": "Sin información en la ITU"
+  },
+  {
+    "País": "Papua Nueva Guinea",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "DVB-T",
+    "Formato de compresión": "Sin información de la ITU",
+    "Estado": "Sin información en la ITU"
+  },
+  {
+    "País": "Birmania",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "DVB-T",
+    "Formato de compresión": "Sin información de la ITU",
+    "Estado": "Sin información en la ITU"
+  },
+  {
+    "País": "Tailandia",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "DVB-T",
+    "Formato de compresión": "Sin información de la ITU",
+    "Estado": "Sin información en la ITU"
+  },
+   {
+    "País": "Sierra Leona",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "DVB-T",
+    "Formato de compresión": "Sin información de la ITU",
+    "Estado": "Sin información en la ITU"
+  },
+   {
+    "País": "República Centroafricana",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "DVB-T",
+    "Formato de compresión": "Sin información de la ITU",
+    "Estado": "Sin información en la ITU"
+  },
+   {
+    "País": "Camerún",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "DVB-T",
+    "Formato de compresión": "Sin información de la ITU",
+    "Estado": "Sin información en la ITU"
+  },
+   {
+    "País": "Gabón",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "DVB-T",
+    "Formato de compresión": "Sin información de la ITU",
+    "Estado": "Sin información en la ITU"
+  },
+  {
+    "País": "Brasil",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "ISDB-T",
+    "Formato de compresión": "Sin información",
+    "Estado": "Sin información en la ITU"
+  },
+  {
+    "País": "Afganistán",
+    "Año de lanzamiento": "2013",
+    "Fecha ASO": "21/08/2018",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Albania (República de)",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "17/06/2015",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Argelia (República Democrática Popular de)",
+    "Año de lanzamiento": "2010",
+    "Fecha ASO": "2015",
+    "Estándar de TV": [
+      "TVDB",
+      "DVB-T2"
+    ],
+    "Formato de compresión": [
+      "MPEG-2",
+      "MPEG-4"
+    ],
+    "Estado": "Completado"
+  },
+  {
+    "País": "Andorra (Principado de)",
+    "Año de lanzamiento": "2006",
+    "Fecha ASO": "25/09/2007",
+    "Estándar de TV": "DVB-T",
+    "Formato de compresión": "MPEG-2",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Angola (República de)",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "2020",
+    "Estándar de TV": "ISDB-T",
+    "Formato de compresión": "Sin información de la ITU",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Antigua y Barbuda",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "Sin información",
+    "Formato de compresión": "Sin información",
+    "Estado": "Sin información"
+  },
+  {
+    "País": "República Argentina",
+    "Año de lanzamiento": "2010",
+    "Fecha ASO": "2019",
+    "Estándar de TV": "ISDB-T",
+    "Formato de compresión": "Sin información",
+    "Estado": "Sin información"
+  },
+  {
+    "País": "Armenia (República de)",
+    "Año de lanzamiento": "2015",
+    "Fecha ASO": "2015",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "Sin información",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Australia",
+    "Año de lanzamiento": "2001",
+    "Fecha ASO": "12/10/2013",
+    "Estándar de TV": "DVB-T",
+    "Formato de compresión": "MPEG-2",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Austria",
+    "Año de lanzamiento": "2006",
+    "Fecha ASO": "2011",
+    "Estándar de TV": [
+      "TVDB",
+      "DVB-T2"
+    ],
+    "Formato de compresión": [
+      "MPEG-2",
+      "MPEG-4"
+    ],
+    "Estado": "Completado"
+  },
+  {
+    "País": "Azerbaiyán (República de)",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "12/01/2016",
+    "Estándar de TV": [
+      "TVDB",
+      "DVB-T2"
+    ],
+    "Formato de compresión": [
+      "MPEG-4",
+      "Sin información"
+    ],
+    "Estado": "Completado"
+  },
+  {
+    "País": "Bahamas (Comunidad de la)",
+    "Año de lanzamiento": "2016",
+    "Fecha ASO": "16/09/2016",
+    "Estándar de TV": "ISDB-T",
+    "Formato de compresión": "Sin información",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Bahréin (Reino de)",
+    "Año de lanzamiento": "2015",
+    "Fecha ASO": "17/06/2015",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": [
+      "MPEG-2",
+      "MPEG-4"
+    ],
+    "Estado": "En curso"
+  },
+  {
+    "País": "Bangladesh (República Popular de)",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "2016",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "No iniciado"
+  },
+  {
+    "País": "Barbados",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "Sin información",
+    "Formato de compresión": "Sin información",
+    "Estado": "Sin información"
+  },
+  {
+    "País": "Bielorrusia (República de)",
+    "Año de lanzamiento": "2005",
+    "Fecha ASO": "2015",
+    "Estándar de TV": [
+      "TVDB",
+      "DVB-T2"
+    ],
+    "Formato de compresión": "MPEG-4",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Bélgica",
+    "Año de lanzamiento": "2002",
+    "Fecha ASO": "2010",
+    "Estándar de TV": [
+      "TVDB",
+      "DVB-T2"
+    ],
+    "Formato de compresión": [
+      "MPEG-2",
+      "MPEG-4"
+    ],
+    "Estado": "Completado"
+  },
+  {
+    "País": "Belice",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "Sin información",
+    "Formato de compresión": "Sin información",
+    "Estado": "No iniciado"
+  },
+  {
+    "País": "Benin",
+    "Año de lanzamiento": "2016",
+    "Fecha ASO": "2018",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Bután (Reino de)",
+    "Año de lanzamiento": "2018",
+    "Fecha ASO": "01/01/2019",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Bolivia (Estado Plurinacional de)",
+    "Año de lanzamiento": "2011",
+    "Fecha ASO": "",
+    "Estándar de TV": "ISDB-T",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Bosnia y Herzegovina",
+    "Año de lanzamiento": "2009",
+    "Fecha ASO": "17/06/2015",
+    "Estándar de TV": "DVB-T",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Botsuana (República de)",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "2020",
+    "Estándar de TV": "ISDB-T",
+    "Formato de compresión": "Sin información de la ITU",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Brunei Darussalam",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "2015",
+    "Estándar de TV": "DVB-T",
+    "Formato de compresión": "Sin información",
+    "Estado": "Sin información"
+  },
+  {
+    "País": "Bulgaria (República de)",
+    "Año de lanzamiento": "2013",
+    "Fecha ASO": "30/09/2013",
+    "Estándar de TV": "DVB-T",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Burkina Faso",
+    "Año de lanzamiento": "2016",
+    "Fecha ASO": "17/06/2017",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Burundi",
+    "Año de lanzamiento": "2018",
+    "Fecha ASO": "",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "No iniciado"
+  },
+  {
+    "País": "Cabo Verde (República de)",
+    "Año de lanzamiento": "2015",
+    "Fecha ASO": "31/08/2016",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "Sin información",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Camboya (Reino de)",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "2020",
+    "Estándar de TV": [
+      "TVDB",
+      "DVB-T2",
+      "DTMB"
+    ],
+    "Formato de compresión": "MPEG-4",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Camerún",
+    "Año de lanzamiento": "2015",
+    "Fecha ASO": "17/06/2016",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Canadá",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "2012",
+    "Estándar de TV": "ATSC",
+    "Formato de compresión": "Sin información",
+    "Estado": "Completado"
+  },
+  {
+    "País": "República Centroafricana.",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "Sin información",
+    "Formato de compresión": "Sin información",
+    "Estado": "No iniciado"
+  },
+  {
+    "País": "Chad",
+    "Año de lanzamiento": "2014",
+    "Fecha ASO": "17/06/2017",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Chile",
+    "Año de lanzamiento": "2010",
+    "Fecha ASO": "2019",
+    "Estándar de TV": "ISDB-T",
+    "Formato de compresión": "Sin información",
+    "Estado": "Sin información"
+  },
+  {
+    "País": "Colombia",
+    "Año de lanzamiento": "2012",
+    "Fecha ASO": "31/12/2019",
+    "Estándar de TV": [
+      "TVDB",
+      "DVB-T2"
+    ],
+    "Formato de compresión": "MPEG-4",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Comoras (Unión de las)",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "DTMB",
+    "Formato de compresión": "MPEG-2",
+    "Estado": "No iniciado"
+  },
+  {
+    "País": "Congo (Dem. Representante del)",
+    "Año de lanzamiento": "2015",
+    "Fecha ASO": "17/06/2015",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Congo (República del)",
+    "Año de lanzamiento": "2015",
+    "Fecha ASO": "17/06/2017",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-2",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Costa Rica",
+    "Año de lanzamiento": "2014",
+    "Fecha ASO": "05/01/2014",
+    "Estándar de TV": "ISDB-T",
+    "Formato de compresión": "Sin información",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Costa de Marfil (República de)",
+    "Año de lanzamiento": "2018",
+    "Fecha ASO": "17/06/2020",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Croacia (República de)",
+    "Año de lanzamiento": "2009",
+    "Fecha ASO": "2010",
+    "Estándar de TV": [
+      "TVDB",
+      "DVB-T2"
+    ],
+    "Formato de compresión": [
+      "MPEG-2",
+      "MPEG-4"
+    ],
+    "Estado": "Completado"
+  },
+  {
+    "País": "Cuba",
+    "Año de lanzamiento": "2013",
+    "Fecha ASO": "2023",
+    "Estándar de TV": "DTMB",
+    "Formato de compresión": "Sin información",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Chipre (República de)",
+    "Año de lanzamiento": "2010",
+    "Fecha ASO": "01/07/2011",
+    "Estándar de TV": "DVB-T",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "Completado"
+  },
+  {
+    "País": "República Checa",
+    "Año de lanzamiento": "2005",
+    "Fecha ASO": "30/06/2012",
+    "Estándar de TV": "DVB-T",
+    "Formato de compresión": [
+      "MPEG-2",
+      "MPEG-4"
+    ],
+    "Estado": "Completado"
+  },
+  {
+    "País": "República Popular Democrática de Corea",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "Sin información",
+    "Formato de compresión": "Sin información",
+    "Estado": "Sin información"
+  },
+  {
+    "País": "Dinamarca",
+    "Año de lanzamiento": "2006",
+    "Fecha ASO": "31/10/2009",
+    "Estándar de TV": [
+      "TVDB",
+      "DVB-T2"
+    ],
+    "Formato de compresión": "MPEG-4",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Yibuti",
+    "Año de lanzamiento": "2017",
+    "Fecha ASO": "17/06/2020",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Dominica",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "Sin información",
+    "Formato de compresión": "Sin información",
+    "Estado": "No iniciado"
+  },
+  {
+    "País": "República Dominicana.",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "ATSC",
+    "Formato de compresión": "Sin información",
+    "Estado": "No iniciado"
+  },
+  {
+    "País": "Ecuador",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "ISDB-T",
+    "Formato de compresión": "Sin información",
+    "Estado": "Sin información de la ITU"
+  },
+  {
+    "País": "Egipto (República Árabe de)",
+    "Año de lanzamiento": "2015",
+    "Fecha ASO": "17/06/2020",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "En curso"
+  },
+  {
+    "País": "El Salvador (República de)",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "ISDB-T",
+    "Formato de compresión": "Sin información de la ITU",
+    "Estado": "Sin información"
+  },
+  {
+    "País": "Guinea Ecuatorial",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "Sin información",
+    "Formato de compresión": "Sin información",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Eritrea",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "DVB-T",
+    "Formato de compresión": "Sin información en la UTI",
+    "Estado": "No iniciado"
+  },
+  {
+    "País": "Estonia (República de)",
+    "Año de lanzamiento": "2006",
+    "Fecha ASO": "2010",
+    "Estándar de TV": [
+      "TVDB",
+      "DVB-T2"
+    ],
+    "Formato de compresión": "MPEG-4",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Eswatini (Reino de)",
+    "Año de lanzamiento": "2015",
+    "Fecha ASO": "12/01/2016",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-2",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Etiopía",
+    "Año de lanzamiento": "2015",
+    "Fecha ASO": "31/12/2017",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "Sin información",
+    "Estado": "Sin información"
+  },
+  {
+    "País": "Fiyi",
+    "Año de lanzamiento": "2015",
+    "Fecha ASO": "2018",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Finlandia",
+    "Año de lanzamiento": "2001",
+    "Fecha ASO": "2007",
+    "Estándar de TV": [
+      "TVDB",
+      "DVB-T2"
+    ],
+    "Formato de compresión": [
+      "MPEG-2",
+      "MPEG-4"
+    ],
+    "Estado": "Completado"
+  },
+  {
+    "País": "Francia",
+    "Año de lanzamiento": "2005",
+    "Fecha ASO": "2011",
+    "Estándar de TV": "DVB-T",
+    "Formato de compresión": [
+      "MPEG-2",
+      "MPEG-4"
+    ],
+    "Estado": "Completado"
+  },
+  {
+    "País": "Gabón",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "2020",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Gambia",
+    "Año de lanzamiento": "2015",
+    "Fecha ASO": "31/12/2019",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Georgia",
+    "Año de lanzamiento": "2015",
+    "Fecha ASO": "01/07/2015",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Alemania (República Federal de)",
+    "Año de lanzamiento": "2002",
+    "Fecha ASO": "2012",
+    "Estándar de TV": "DVB-T",
+    "Formato de compresión": "MPEG-2",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Ghana",
+    "Año de lanzamiento": "2010",
+    "Fecha ASO": "31/12/2017",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Grecia",
+    "Año de lanzamiento": "2008",
+    "Fecha ASO": "29/12/2014",
+    "Estándar de TV": "DVB-T",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Granada",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "Sin información",
+    "Formato de compresión": "Sin información",
+    "Estado": "Sin información"
+  },
+  {
+    "País": "Guatemala (República de)",
+    "Año de lanzamiento": "2013",
+    "Fecha ASO": "",
+    "Estándar de TV": "ISDB-T",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Guinea",
+    "Año de lanzamiento": "2015",
+    "Fecha ASO": "31/12/2017",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Guinea-Bissau",
+    "Año de lanzamiento": "2015",
+    "Fecha ASO": "31/12/2017",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Guyana",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "Sin información",
+    "Formato de compresión": "Sin información",
+    "Estado": "Sin información"
+  },
+  {
+    "País": "Haití (República de)",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "ATSC",
+    "Formato de compresión": "Sin información",
+    "Estado": "No iniciado"
+  },
+  {
+    "País": "Honduras (República de)",
+    "Año de lanzamiento": "2017",
+    "Fecha ASO": "31/12/2019",
+    "Estándar de TV": "ISDB-T",
+    "Formato de compresión": "Sin información de la ITU",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Hungría",
+    "Año de lanzamiento": "2008",
+    "Fecha ASO": "31/10/2013",
+    "Estándar de TV": "DVB-T",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Islandia",
+    "Año de lanzamiento": "2010",
+    "Fecha ASO": "2015",
+    "Estándar de TV": "DVB-T",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "Completado"
+  },
+  {
+    "País": "India (República de)",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "2015",
+    "Estándar de TV": [
+      "TVDB",
+      "DVB-T2"
+    ],
+    "Formato de compresión": "Sin información",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Indonesia (República de)",
+    "Año de lanzamiento": "2012",
+    "Fecha ASO": "2020",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Irán (República Islámica del)",
+    "Año de lanzamiento": "2009",
+    "Fecha ASO": "",
+    "Estándar de TV": "DVB-T",
+    "Formato de compresión": "Sin información",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Irak (República de)",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "Sin información",
+    "Formato de compresión": "Sin información",
+    "Estado": "No iniciado"
+  },
+  {
+    "País": "Irlanda",
+    "Año de lanzamiento": "2011",
+    "Fecha ASO": "24/10/2012",
+    "Estándar de TV": "DVB-T",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Israel (Estado de)",
+    "Año de lanzamiento": "2008",
+    "Fecha ASO": "2011",
+    "Estándar de TV": "DVB-T",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Italia",
+    "Año de lanzamiento": "2008",
+    "Fecha ASO": "2012",
+    "Estándar de TV": [
+      "TVDB",
+      "DVB-T2"
+    ],
+    "Formato de compresión": [
+      "MPEG-2",
+      "MPEG-4"
+    ],
+    "Estado": "Completado"
+  },
+  {
+    "País": "Jamaica",
+    "Año de lanzamiento": "2018",
+    "Fecha ASO": "2020",
+    "Estándar de TV": "ATSC",
+    "Formato de compresión": "Sin información",
+    "Estado": "No iniciado"
+  },
+  {
+    "País": "Japón",
+    "Año de lanzamiento": "2003",
+    "Fecha ASO": "2011",
+    "Estándar de TV": "ISDB-T",
+    "Formato de compresión": [
+      "MPEG-2",
+      "MPEG-4"
+    ],
+    "Estado": "Completado"
+  },
+  {
+    "País": "Jordania",
+    "Año de lanzamiento": "2018",
+    "Fecha ASO": "2015",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": [
+      "MPEG-2",
+      "MPEG-4"
+    ],
+    "Estado": "En curso"
+  },
+  {
+    "País": "Kazajstán (República de)",
+    "Año de lanzamiento": "2012",
+    "Fecha ASO": "2023",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Kenia (República de)",
+    "Año de lanzamiento": "2009",
+    "Fecha ASO": "30/03/2015",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Kiribati (República de)",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "2017",
+    "Estándar de TV": "ND",
+    "Formato de compresión": "Sin información",
+    "Estado": "Sin información"
+  },
+  {
+    "País": "Corea (República de)",
+    "Año de lanzamiento": "2001",
+    "Fecha ASO": "2012",
+    "Estándar de TV": "ATSC",
+    "Formato de compresión": "MPEG-2",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Kuwait (Estado de)",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "Sin información",
+    "Formato de compresión": "Sin información",
+    "Estado": "Sin información"
+  },
+  {
+    "País": "República Kirguisa",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "15/05/2017",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "Sin información",
+    "Estado": "Completado"
+  },
+  {
+    "País": "República Democrática Popular Lao",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "2020",
+    "Estándar de TV": [
+      "TVDB",
+      "DTMB"
+    ],
+    "Formato de compresión": "Sin información",
+    "Estado": "Sin información"
+  },
+  {
+    "País": "Letonia (República de)",
+    "Año de lanzamiento": "2009",
+    "Fecha ASO": "06/01/2010",
+    "Estándar de TV": "DVB-T",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Líbano",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "2015",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "Sin información",
+    "Estado": "No iniciado"
+  },
+  {
+    "País": "Lesotho (Reino de)",
+    "Año de lanzamiento": "2015",
+    "Fecha ASO": "17/06/2015",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Liberia (República de)",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "31/12/2017",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Libia",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "2015",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "Sin información",
+    "Estado": "No iniciado"
+  },
+  {
+    "País": "Liechtenstein (Principado de)",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "Sin información",
+    "Formato de compresión": "Sin información",
+    "Estado": "Sin información"
+  },
+  {
+    "País": "Lituania (República de)",
+    "Año de lanzamiento": "2006",
+    "Fecha ASO": "29/09/2012",
+    "Estándar de TV": "DVB-T",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Luxemburgo",
+    "Año de lanzamiento": "2006",
+    "Fecha ASO": "2006",
+    "Estándar de TV": "DVB-T",
+    "Formato de compresión": "MPEG-2",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Madagascar (República de)",
+    "Año de lanzamiento": "2015",
+    "Fecha ASO": "2020",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Malawi",
+    "Año de lanzamiento": "2011",
+    "Fecha ASO": "31/12/2011",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-2",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Malasia",
+    "Año de lanzamiento": "2017",
+    "Fecha ASO": "31/10/2019",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Maldivas",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "2020",
+    "Estándar de TV": [
+      "DVB-T2",
+      "ISDB-T"
+    ],
+    "Formato de compresión": "Sin información",
+    "Estado": "Sin información"
+  },
+  {
+    "País": "Malí (República de)",
+    "Año de lanzamiento": "2016",
+    "Fecha ASO": "17/12/2016",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Malta",
+    "Año de lanzamiento": "2005",
+    "Fecha ASO": "2011",
+    "Estándar de TV": "DVB-T",
+    "Formato de compresión": "MPEG-2",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Islas Marshall (República de la)",
+    "Año de lanzamiento": "2010",
+    "Fecha ASO": "",
+    "Estándar de TV": "DVB-T",
+    "Formato de compresión": "MPEG-2",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Mauritania (República Islámica del)",
+    "Año de lanzamiento": "2016",
+    "Fecha ASO": "17/06/2016",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "No iniciado"
+  },
+  {
+    "País": "Mauricio (República de)",
+    "Año de lanzamiento": "2005",
+    "Fecha ASO": "17/07/2015",
+    "Estándar de TV": "DVB-T",
+    "Formato de compresión": "MPEG-2",
+    "Estado": "Completado"
+  },
+  {
+    "País": "México",
+    "Año de lanzamiento": "2004",
+    "Fecha ASO": "31/12/2015",
+    "Estándar de TV": "ATSC",
+    "Formato de compresión": [
+      "MPEG-2",
+      "MPEG-4"
+    ],
+    "Estado": "Completado"
+  },
+  {
+    "País": "Micronesia (Estados Federados de)",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "ND",
+    "Formato de compresión": "Sin información",
+    "Estado": "Sin información"
+  },
+  {
+    "País": "Moldavia (República de)",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "15/06/2015",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Mónaco (Principado de)",
+    "Año de lanzamiento": "2005",
+    "Fecha ASO": "2011",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "Sin información",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Mongolia",
+    "Año de lanzamiento": "2014",
+    "Fecha ASO": "10/05/2015",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Montenegro",
+    "Año de lanzamiento": "2014",
+    "Fecha ASO": "17/06/2015",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-2",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Marruecos (Reino de) (incluido el Sáhara Occidental)",
+    "Año de lanzamiento": "2007",
+    "Fecha ASO": "17/06/2015",
+    "Estándar de TV": "DVB-T",
+    "Formato de compresión": "MPEG-2",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Mozambique",
+    "Año de lanzamiento": "2015",
+    "Fecha ASO": "31/12/2016",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Myanmar (Unión de)",
+    "Año de lanzamiento": "2013",
+    "Fecha ASO": "2025",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Namibia (República de)",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "2016",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "Sin información",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Nauru",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "ND",
+    "Formato de compresión": "Sin información",
+    "Estado": "Sin información"
+  },
+  {
+    "País": "Nepal (República Democrática Federal de)",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "2017",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "Sin información",
+    "Estado": "Sin información"
+  },
+  {
+    "País": "Países Bajos (Reino del)",
+    "Año de lanzamiento": "2003",
+    "Fecha ASO": "2011",
+    "Estándar de TV": [
+      "TVDB",
+      "DVB-T2"
+    ],
+    "Formato de compresión": [
+      "MPEG-2",
+      "MPEG-4"
+    ],
+    "Estado": "Completado"
+  },
+  {
+    "País": "Antillas Neerlandesas",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "DVB-T",
+    "Formato de compresión": "MPEG-2",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Nueva Zelanda",
+    "Año de lanzamiento": "2008",
+    "Fecha ASO": "2013",
+    "Estándar de TV": [
+      "TVDB",
+      "DVB-T2"
+    ],
+    "Formato de compresión": "MPEG-4",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Nicaragua",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "ISDB-T",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "No iniciado"
+  },
+  {
+    "País": "Níger (República del)",
+    "Año de lanzamiento": "2016",
+    "Fecha ASO": "17/06/2016",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Nigeria (República Federal de)",
+    "Año de lanzamiento": "2015",
+    "Fecha ASO": "31/12/2017",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Niue",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "Sin información",
+    "Formato de compresión": "Sin información",
+    "Estado": "Sin información"
+  },
+  {
+    "País": "Macedonia del Norte (República de)",
+    "Año de lanzamiento": "2008",
+    "Fecha ASO": "31/05/2013",
+    "Estándar de TV": "DVB-T",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Noruega",
+    "Año de lanzamiento": "2007",
+    "Fecha ASO": "12/01/2009",
+    "Estándar de TV": "DVB-T",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Omán (Sultanato de)",
+    "Año de lanzamiento": "2018",
+    "Fecha ASO": "08/08/2019",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "Sin información",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Pakistán (República Islámica del)",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "DTMB",
+    "Formato de compresión": "Sin información",
+    "Estado": "Sin información"
+  },
+  {
+    "País": "Palau",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "Sin información",
+    "Formato de compresión": "Sin información",
+    "Estado": "Sin información"
+  },
+  {
+    "País": "Panamá (República de)",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "DVB-T",
+    "Formato de compresión": "Sin información",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Papúa Nueva Guinea",
+    "Año de lanzamiento": "2014",
+    "Fecha ASO": "2017",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Paraguay (República de)",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "ISDB-T",
+    "Formato de compresión": "Sin información",
+    "Estado": "Sin información de la ITU"
+  },
+  {
+    "País": "Perú",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "ISDB-T",
+    "Formato de compresión": "Sin información",
+    "Estado": "Sin información en la ITU"
+  },
+  {
+    "País": "Filipinas (República de la)",
+    "Año de lanzamiento": "2017",
+    "Fecha ASO": "2023",
+    "Estándar de TV": "ISDB-T",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Polonia (República de)",
+    "Año de lanzamiento": "2009",
+    "Fecha ASO": "2013",
+    "Estándar de TV": "DVB-T",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Portugal",
+    "Año de lanzamiento": "2009",
+    "Fecha ASO": "2012",
+    "Estándar de TV": "DVB-T",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Qatar (Estado de)",
+    "Año de lanzamiento": "2014",
+    "Fecha ASO": "31/10/2018",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Rumania",
+    "Año de lanzamiento": "2015",
+    "Fecha ASO": "17/06/2015",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Federación de Rusia",
+    "Año de lanzamiento": "2010",
+    "Fecha ASO": "12/03/2018",
+    "Estándar de TV": [
+      "TVDB",
+      "DVB-T2"
+    ],
+    "Formato de compresión": [
+      "MPEG-2",
+      "MPEG-4"
+    ],
+    "Estado": "En curso"
+  },
+  {
+    "País": "Ruanda (República de)",
+    "Año de lanzamiento": "2012",
+    "Fecha ASO": "31/07/2014",
+    "Estándar de TV": [
+      "TVDB",
+      "DVB-T2"
+    ],
+    "Formato de compresión": "MPEG-4",
+    "Estado": "Completado"
+  },
+  {
+    "País": "San Cristóbal y Nieves (Federación de)",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "Sin información",
+    "Formato de compresión": "Sin información",
+    "Estado": "Sin información"
+  },
+  {
+    "País": "Santa Lucía",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "Sin información",
+    "Formato de compresión": "Sin información",
+    "Estado": "Sin información"
+  },
+  {
+    "País": "San Vicente y las Granadinas",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "Sin información",
+    "Formato de compresión": "Sin información",
+    "Estado": "Sin información"
+  },
+  {
+    "País": "Samoa (Estado Independiente de)",
+    "Año de lanzamiento": "2014",
+    "Fecha ASO": "2017",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "En curso"
+  },
+  {
+    "País": "San Marino (República de)",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "Sin información",
+    "Formato de compresión": "Sin información",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Santo Tomé y Príncipe (República Democrática del)",
+    "Año de lanzamiento": "2016",
+    "Fecha ASO": "31/12/2017",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Arabia Saudita (Reino de)",
+    "Año de lanzamiento": "2006",
+    "Fecha ASO": "2013",
+    "Estándar de TV": [
+      "TVDB",
+      "DVB-T2"
+    ],
+    "Formato de compresión": [
+      "MPEG-2",
+      "MPEG-4"
+    ],
+    "Estado": "Completado"
+  },
+  {
+    "País": "Senegal (República de)",
+    "Año de lanzamiento": "2014",
+    "Fecha ASO": "31/12/2017",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Serbia",
+    "Año de lanzamiento": "2012",
+    "Fecha ASO": "06/07/2015",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Seychelles (República de)",
+    "Año de lanzamiento": "2011",
+    "Fecha ASO": "31/12/2015",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Sierra Leona",
+    "Año de lanzamiento": "2014",
+    "Fecha ASO": "31/12/2017",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Singapur (República de)",
+    "Año de lanzamiento": "2013",
+    "Fecha ASO": "01/02/2019",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Singapur (República de)",
+    "Año de lanzamiento": "2014",
+    "Fecha ASO": "25/03/2020",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "Completado"
+  },
+  {
+    "País": "República Eslovaca",
+    "Año de lanzamiento": "2009",
+    "Fecha ASO": "2012",
+    "Estándar de TV": [
+      "TVDB",
+      "DVB-T2"
+    ],
+    "Formato de compresión": [
+      "MPEG-2",
+      "MPEG-4"
+    ],
+    "Estado": "Completado"
+  },
+  {
+    "País": "Eslovenia (República de)",
+    "Año de lanzamiento": "2006",
+    "Fecha ASO": "2011",
+    "Estándar de TV": "DVB-T",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Islas Salomón",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "ND",
+    "Formato de compresión": "Sin información",
+    "Estado": "Sin información"
+  },
+  {
+    "País": "Somalia",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "Sin información",
+    "Formato de compresión": "Sin información",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Sudáfrica (República de)",
+    "Año de lanzamiento": "2015",
+    "Fecha ASO": "17/06/2015",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Sudán del Sur (República de)",
+    "Año de lanzamiento": "2017",
+    "Fecha ASO": "31/12/2017",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "En curso"
+  },
+  {
+    "País": "España",
+    "Año de lanzamiento": "2000",
+    "Fecha ASO": "2010",
+    "Estándar de TV": "DVB-T",
+    "Formato de compresión": [
+      "MPEG-2",
+      "MPEG-4"
+    ],
+    "Estado": "Completado"
+  },
+  {
+    "País": "Sri Lanka (República Socialista Democrática de)",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "2017",
+    "Estándar de TV": [
+      "DVB-T2",
+      "ISDB-T"
+    ],
+    "Formato de compresión": "Sin información",
+    "Estado": "Sin información"
+  },
+  {
+    "País": "Sudán (República del)",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "2015",
+    "Estándar de TV": [
+      "TVDB",
+      "DVB-T2"
+    ],
+    "Formato de compresión": "Sin información",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Surinam (República de)",
+    "Año de lanzamiento": "2014",
+    "Fecha ASO": "30/06/2015",
+    "Estándar de TV": [
+      "DVB-T2",
+      "ATSC"
+    ],
+    "Formato de compresión": "Sin información",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Suecia",
+    "Año de lanzamiento": "1999",
+    "Fecha ASO": "2007",
+    "Estándar de TV": [
+      "TVDB",
+      "DVB-T2"
+    ],
+    "Formato de compresión": "MPEG-4",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Suiza (Confederación de)",
+    "Año de lanzamiento": "2001",
+    "Fecha ASO": "2008",
+    "Estándar de TV": "DVB-T",
+    "Formato de compresión": "MPEG-2",
+    "Estado": "Completado"
+  },
+  {
+    "País": "República Árabe Siria",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "2020",
+    "Estándar de TV": "Sin información",
+    "Formato de compresión": "Sin información",
+    "Estado": "Sin información"
+  },
+  {
+    "País": "Tayikistán (República de)",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "Sin información",
+    "Formato de compresión": "Sin información",
+    "Estado": "Sin información"
+  },
+  {
+    "País": "Tanzania (República Unida de)",
+    "Año de lanzamiento": "2009",
+    "Fecha ASO": "04/01/2015",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Timor-Leste (República Democrática del)",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "2024",
+    "Estándar de TV": "ND",
+    "Formato de compresión": "Sin información",
+    "Estado": "Sin información"
+  },
+  {
+    "País": "República Togolesa",
+    "Año de lanzamiento": "2012",
+    "Fecha ASO": "12/01/2016",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Tonga (Reino de)",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "15/06/2014",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "Sin información",
+    "Estado": "Sin información"
+  },
+  {
+    "País": "Túnez",
+    "Año de lanzamiento": "2010",
+    "Fecha ASO": "2015",
+    "Estándar de TV": "DVB-T",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Türkiye",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "2015",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "No iniciado"
+  },
+  {
+    "País": "Turkmenistán",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "DVB-T",
+    "Formato de compresión": "Sin información",
+    "Estado": "Sin información"
+  },
+  {
+    "País": "Tuvalu",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "Sin información",
+    "Formato de compresión": "Sin información",
+    "Estado": "Sin información"
+  },
+  {
+    "País": "Uganda (República de)",
+    "Año de lanzamiento": "2015",
+    "Fecha ASO": "12/01/2015",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Ucrania",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "31/12/2019",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Emiratos Árabes Unidos",
+    "Año de lanzamiento": "2014",
+    "Fecha ASO": "31/07/2014",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Reino Unido de Gran Bretaña e Irlanda del Norte",
+    "Año de lanzamiento": "1998",
+    "Fecha ASO": "2012",
+    "Estándar de TV": [
+      "TVDB",
+      "DVB-T2"
+    ],
+    "Formato de compresión": [
+      "MPEG-2",
+      "MPEG-4"
+    ],
+    "Estado": "Completado"
+  },
+  {
+    "País": "Estados Unidos de América",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "2009",
+    "Estándar de TV": "ATSC",
+    "Formato de compresión": "Sin información",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Uruguay (República Oriental de)",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "",
+    "Estándar de TV": "ISDB-T",
+    "Formato de compresión": "Sin información",
+    "Estado": "Sin información de la ITU"
+  },
+  {
+    "País": "Uzbekistán (República de)",
+    "Año de lanzamiento": "2008",
+    "Fecha ASO": "2017",
+    "Estándar de TV": [
+      "TVDB",
+      "DVB-T2"
+    ],
+    "Formato de compresión": "MPEG-4",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Vanuatu",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "2017",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "Sin información",
+    "Estado": "Sin información"
+  },
+  {
+    "País": "Vaticano",
+    "Año de lanzamiento": "2012",
+    "Fecha ASO": "2012",
+    "Estándar de TV": [
+      "TVDB",
+      "DVB-T2"
+    ],
+    "Formato de compresión": [
+      "MPEG-2",
+      "MPEG-4"
+    ],
+    "Estado": "Completado"
+  },
+  {
+    "País": "Venezuela",
+    "Año de lanzamiento": "2013",
+    "Fecha ASO": "31/12/2021",
+    "Estándar de TV": "ISDB-T",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "En curso"
+  },
+  {
+    "País": "Vietnam (República Socialista de)",
+    "Año de lanzamiento": "2010",
+    "Fecha ASO": "31/12/2020",
+    "Estándar de TV": [
+      "TVDB",
+      "DVB-T2"
+    ],
+    "Formato de compresión": [
+      "MPEG-2",
+      "MPEG-4"
+    ],
+    "Estado": "En curso"
+  },
+  {
+    "País": "Yemen (República de)",
+    "Año de lanzamiento": "",
+    "Fecha ASO": "2020",
+    "Estándar de TV": "Sin información",
+    "Formato de compresión": "Sin información",
+    "Estado": "Sin información"
+  },
+  {
+    "País": "Zambia (República de)",
+    "Año de lanzamiento": "2013",
+    "Fecha ASO": "30/12/2015",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "Completado"
+  },
+  {
+    "País": "Zimbabwe (República de)",
+    "Año de lanzamiento": "2015",
+    "Fecha ASO": "2015",
+    "Estándar de TV": "DVB-T2",
+    "Formato de compresión": "MPEG-4",
+    "Estado": "En curso"
+  }
+]
+
